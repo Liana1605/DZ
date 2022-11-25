@@ -16,4 +16,3 @@ Console.WriteLine(numberB);
 Console.Write("min =  ");
 Console.WriteLine(numberA);   
 }
-
