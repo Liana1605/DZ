@@ -1,18 +1,19 @@
-﻿Console.WriteLine("Введите два числа: "); 
-int a = int.Parse(Console.ReadLine()); 
-int b = int.Parse(Console.ReadLine()); 
+﻿Console.WriteLine("Введите два числа: ");
+int numberA = Convert.ToInt32(Console.ReadLine());
+int numberB = Convert.ToInt32(Console.ReadLine());
 
-if(a > b)
+if (numberA > numberB)
 {
-Console.Write("max = ");
-Console.WriteLine(a);
-Console.Write("min = ");
-Console.WriteLine(b);
+Console.Write("max =  ");
+Console.WriteLine(numberA);
+Console.Write("min =  ");
+Console.WriteLine(numberB);
 }
 else
 {
-Console.Write("max = ");
-Console.WriteLine(b);
-Console.Write("min = ");
-Console.WriteLine(a);
+Console.Write("max =  ");
+Console.WriteLine(numberB);
+Console.Write("min =  ");
+Console.WriteLine(numberA);   
 }
+
